@@ -42,6 +42,10 @@ body{
 	color: black;
 	transition: .5s all;
 }
+.titulo{
+	text-align: center;
+	margin: 20px;
+}
 nav ul li{
 	float: left;
 	list-style: none;
@@ -52,14 +56,22 @@ nav ul li{
 .clearfix{
 	clear: both;
 }
-
+img{
+	margin: auto;
+	display: block;
+	width: 600px;
+	height: 400px;
+}
 
 #content{
-	float: left;
 	width: calc(80% - 80px);
-	min-height: 500px;
+	min-height: 200px;
 	background:#FFFFFF;
 	padding: 40px;
+}
+.contenido{
+	margin: 60px;
+	font-size: 1.5em;
 }
 .article{
 	color: black;
@@ -67,7 +79,7 @@ nav ul li{
 	margin-bottom: 15px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #000000;
-	
+
 	font-size: 1.5em;
 }
 .article:first-child{
@@ -77,15 +89,7 @@ nav ul li{
 .article h2{
 	font-size: 25px;
 }
-aside{
-	float: left;
-	width: calc(20% - 20px);
-	background: white;
-	min-height: 500px;
-	padding-left:  10px;
-	padding-right: 10px;
-	padding-top: 20px;
-}
+
 footer{
 	background: black;
 	color: white;
