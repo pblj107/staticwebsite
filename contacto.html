@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Document</title>
+	<header><h1>Contacto</h1></header>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
-	<link rel="stylesheet" href="css/contactos.css">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<title>Contacto</title>
+	<link rel= "stylesheet" href="css/contactos.css"  / >
 </head>
+
+<body>
+	<ul class="menu">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="">Acerca de</a></li>
+		</ul>
+	<div id="overlay">
+		
+		<form onsubmit="event.preventDefault(); validateForm()">
+			
+			<h1>Contáctanos</h1>
+
+
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" placeholder="Su nombre">
+			<small class="error"></small>
+
+
+			<label for="email">Correo electrónico:</label>
+			<input type="text" id="email" placeholder="Su correo electrónico">
+			<small class="error"></small>
+
+
+			<label for="message">Mensaje:</label>
+			<textarea id="mesagge" placeholder="Escriba su mensaje" rows="6"></textarea>
+			<small class="error"></small>
+
+			<div class="center">
+				<input type="submit" value="Enviar mensaje">
+				<p id="succes"></p>
+				
+			</div>
+		</form>
+	</div>
+	<script src="js/script.js"> </script>
+</body>
 </html>
