@@ -15,7 +15,7 @@ header{
 }
 body{
 	font-family: arial,helvetica;
-	background:  lightgray;
+	background:  #FFFFFF;
 	
 }
 .menu{
@@ -59,7 +59,7 @@ nav ul li{
 	float: left;
 	width: calc(80% - 80px);
 	min-height: 500px;
-	background:lightblue;
+	background:#FFFFFF;
 	padding: 40px;
 }
 .article{
@@ -67,7 +67,7 @@ nav ul li{
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #000000;
 }
 .article:first-child{
 	padding-top: 10px;

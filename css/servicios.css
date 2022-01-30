@@ -15,7 +15,7 @@ header{
 }
 body{
 	font-family: arial,helvetica;
-	background: #F3F5F5;	
+	background: #FFFFFF;	
 }
 .menu{
 	list-style: none;
@@ -62,7 +62,7 @@ nav ul li{
 }
 .tabla{
 	width: 33%; 
-	height: 550px;
+	height: 650px;
 	margin: auto;
 	border: 1px solid #343759;
 	border-radius: 4px;
