@@ -1,0 +1,108 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	font-family: sans-serif;
+	background: lightblue;
+	height: 100px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 100px;
+	color: black;
+	border-bottom: 1px solid black;
+}
+body{
+	font-family: arial, helvetica;
+	background:#F3F5F5;
+}
+.menu{
+	list-style: none;
+	padding: 0px;
+	background:white;
+	width: 100%;
+	margin:auto;
+	border-bottom:1px solid black; 
+	height: 50px;
+	text-align: center;
+}
+.menu li a{
+	text-decoration:none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+.menu li{
+	display: inline-block;
+	text-align:center;
+}
+.menu li a:hover{
+	background:lightblue;
+	color: black;
+	transition: .5s all;
+}
+.titulo{
+	text-align: center;
+}
+nav ul{
+	background-color: white;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline-flex;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px;
+	width: 150px;
+}
+nav li:hover{
+	background-color: lightblue;
+}
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.contenido{
+	display:flex;
+	margin: 60px;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+	line-height: 30px;
+	display: block;	
+}
+.clearfix{
+	clear: both;
+}
+.secciones{
+	display: flex;
+	align-items: center;
+	padding: 40px;
+	
+	font-size: 1.5em;
+}
+.menu-secundario{
+	width: 20px;
+	margin-top: 60px;
+}
+.menu-secundario a{
+	display: block;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+}
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
